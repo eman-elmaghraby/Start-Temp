@@ -1,0 +1,23 @@
+// header
+
+.header{
+direction: rtl;
+
+.menu1{
+    width: 100%; 
+    min-width:450px;
+    li{
+        font-size: var( --bs-font-14);
+        
+    }
+    p{
+        color: var( --bs-light-300);
+    }
+}
+.menu2{
+    width: 100%; 
+    min-width:550px;
+}
+}
+
+

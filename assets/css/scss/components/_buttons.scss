@@ -1,0 +1,6 @@
+//buttons
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    border-bottom: var(--bs-primary) 1px solid;
+}
