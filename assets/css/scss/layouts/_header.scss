@@ -1,23 +1,100 @@
 // header
 
-.header{
-direction: rtl;
+.header {
+    font-family: 'IBM Plex Sans' !important;
+    direction: rtl;
+    .nav-link{
+        font-size: var(--bs-font-16) !important;
+    font-weight: 500 !important;
+    }
+    .navbar {
+  
+      width: 100%;
+      background: white;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: top 0.3s ease-in-out;
+      z-index:9999999999999999;
 
-.menu1{
-    width: 100%; 
-    min-width:450px;
-    li{
-        font-size: var( --bs-font-14);
+    
+        .active {
+            color: var(--bs-primary) !important;
+            font-weight: bold !important;
+        }
         
+        .navbar-nav {
+            .nav-item {
+                position: relative;
+                align-items:center;
+
+                &::before {
+                    content: '';
+                    background-color: var(--bs-primary);
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    width: 0;
+                    height: 2px;  // Set height here
+                    transition: width 0.3s ease-in-out;  // Smooth animation
+                    transform: translateX(-50%);  // Center the line
+                }
+                &:hover  .nav-link{
+                color: var(--bs-primary) !important;
+            }
+                    
+                &:hover::before {  
+                    width: 80%// Expand the line on hover
+                }
+                
+            }
+        }
     }
-    p{
-        color: var( --bs-light-300);
+ 
+  
+    p {
+      color: var(--gold-800) !important;
     }
-}
-.menu2{
-    width: 100%; 
-    min-width:550px;
-}
-}
+  
+    .menu1 {
+      width: max-content;
+  
+      li {
+        font-size: var(--bs-font-14);
+      }
+  
+      p {
+        color: var(--bs-light-300);
+      }
+    }
+  
+    .menu2 {
+      width: 500px;
+      top: 99%;
+      right: -168%;
+    }
+  
+    // Dropdown hover functionality
+    .nav-item {
+      &.dropdown {
+        &:hover {
+          .dropdown-menu {
+            display: block;
+            animation: fadeIn 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(5px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+  
 
 

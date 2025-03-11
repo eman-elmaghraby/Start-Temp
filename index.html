@@ -28,38 +28,35 @@
 <body>
 
   <!-- ======= Start spinner Section ======= -->
-  <section class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-    <div class="spinner-container">
+  <div class="  loading" >
+    
         <div class="spinner-2"></div>
-        <img src="assets/img/Group.png" class="spinner-img"/>
-    </div>
-</section>
+        <img src="assets/img/Group.png" class="spinner-img "/>
+
+</div>
 
 <!-- ======= End spinner Section ======= -->
 
   <section class=" mt-3 wow animate__animated animate__fadeIn" data-wow-delay="0.90s">
  <!-- ======= Start header Section ======= -->
 
- <header class="header" >
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+<header class="header top-0">
+  <nav class="navbar navbar-expand-lg p-0">
+    <div class="container d-flex justify-content-between align-items-center w-100">
       <a class="navbar-brand" href="#">
-        <img class="w-100" src="assets/img/Group 732.png" alt="logo"/>
+        <img src="assets/img/Group.svg" alt="logo" class="img-fluid" />
       </a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="#">الرئيسية</a>
-          </li>
-          <li class="nav-item dropdown w-100">
-            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              عن الإدارة العامة
-            </a>
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link active fw-bold text-success" href="#">الرئيسية</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">عن الإدارة العامة</a>
             <ul class="dropdown-menu menu1 dropdown-menu-end border-0 rounded-3 shadow-lg pt-4">
               <div class="row d-flex justify-content-lg-evenly">
                 <div class="col-5">
@@ -85,69 +82,68 @@
               </div>
             </ul>
           </li>
-          <li class="nav-item dropdown w-100">
-            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">  
-            التعليم
-            </a>
-            <ul class="dropdown-menu menu2 menu1 dropdown-menu-end border-0 rounded-3 shadow-lg pt-4">
-              <div class="row d-flex justify-content-lg-between g-3 p-3">
-                <div class="col-lg-5 col-md-4 col-sm-12">
-                  <p class="text-end fw-bold me-auto text-black">الكليات والمعاهد</p>
-                  <ul class="text-end">
-                   <div class="d-flex">
-                    <li><a class="dropdown-item" href="#">القبول</a></li>
-                    <li><a class="dropdown-item" href="#">دليل التخصصات</a></li>
-                   </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">التعليم</a>
+            <div class="main-dropdown dropdown-menu menu2 menu1 dropdown-menu-end border-0 rounded-3 shadow-lg pt-4">
+              <div class="container-menue">
+                <div class="row  g-3 p-3">
+                  <div class="col-xl-4 col-md-5 col-sm-12 ">
+                    <p class="text-end fw-bold me-auto text-black">الكليات والمعاهد</p>
+                    <ul class="text-end">
+                      <li><a class="dropdown-item" href="#">القبول</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">دليل التخصصات</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">الخدمات الالكترونية</a></li>
                     <li><hr class="dropdown-divider"></li>
-                 <div class="d-flex">
-                  <li><a class="dropdown-item" href="#">الخدمات الالكترونية</a></li>
-                  <li><a class="dropdown-item" href="#">التقويم الأكاديمي</a></li>
-                 </div>
-                  </ul>
-                </div>
-                <div class="col-lg-5 col-md-4 col-sm-12">
-                  <p class="text-end fw-bold text-black">التعليم العام</p>
-                  <ul class="text-end mt-2 w-100">
-                    <li class="w-100"><a class="dropdown-item" href="#">التسجيل</a></li>
+                    <li><a class="dropdown-item" href="#">التقويم الأكاديمي</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">توزيع الأحياء السكنية</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">التقويم الدراسي</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                  </ul>
-                </div>
-                <div class="col-lg-5 col-md-4 col-sm-12">
-                  <p class="text-end fw-bold">الكليات والمعاهد</p>
-                  <ul class="text-end mt-2 w-100">
-                    <li class="w-100"><a class="dropdown-item" href="#">الكليات والمعاهد بالجبيل</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">الكليات والمعاهد بينبـــــــع</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                  </ul>
-                </div>
-                <div class="col-lg-5 col-md-4 col-sm-12">
-                  <p class="text-end fw-bold">إدارات التعليم</p>
-                  <ul class="text-end mt-2 w-100">
-                    <li class="w-100"><a class="dropdown-item" href="#">إدارة التعليم العام بالجبيل</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">إدارة التعليم العام بينبـــــــع</a></li>
-                  </ul>
-                </div>
-                <div class="col-lg-5 col-md-4 col-sm-12 " >
-                  <p class="text-end fw-bold ">المجالس</p>
-                  <ul class="text-end mt-2 w-100">
-                    <li class="w-100"><a class="dropdown-item" href="#">المجلس الأعلى للكليات والمعاهد</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">المجلس العلمي الموحد</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">اللجنة المركزية للابتعاث</a></li>
-                  </ul>
+                    </ul>
+                  </div>
+                  <div class="col-xl-4 col-md-5 col-sm-12">
+                    <p class="text-end fw-bold text-black">التعليم العام</p>
+                    <ul class="text-end mt-2 w-100">
+                      <li class="w-100"><a class="dropdown-item" href="#">التسجيل</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">توزيع الأحياء السكنية</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">التقويم الدراسي</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </div>
+                  <div class="col-xl-4 col-md-5 col-sm-12">
+                    <p class="text-end fw-bold">الكليات والمعاهد</p>
+                    <ul class="text-end mt-2 w-100">
+                      <li class="w-100"><a class="dropdown-item" href="#">الكليات والمعاهد بالجبيل</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">الكليات والمعاهد بينبـــــــع</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </div>
+                  <div class="col-xl-4 col-md-5 col-sm-12">
+                    <p class="text-end fw-bold">إدارات التعليم</p>
+                    <ul class="text-end mt-2 w-100">
+                      <li class="w-100"><a class="dropdown-item" href="#">إدارة التعليم العام بالجبيل</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">إدارة التعليم العام بينبـــــــع</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12 " >
+                    <p class="text-end fw-bold ">المجالس</p>
+                    <ul class="text-end mt-2 w-100">
+                      <li class="w-100"><a class="dropdown-item" href="#">المجلس الأعلى للكليات والمعاهد</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">المجلس العلمي الموحد</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">اللجنة المركزية للابتعاث</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </ul>
+             </div>
           </li>
-          <li class="nav-item dropdown w-100">
-            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               المركز الإعلامي
             </a>
             <ul class="dropdown-menu dropdown-menu-end border-0 rounded-3 shadow-lg pt-4">
@@ -168,10 +164,8 @@
               </div>
             </ul>
           </li>
-          <li class="nav-item dropdown w-100">
-            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              الفرص
-            </a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">الفرص</a>
             <ul class="dropdown-menu dropdown-menu-end border-0 rounded-3 shadow-lg pt-4">
               <div class="row d-flex justify-content-lg-evenly">
                 <div class="col-12">
@@ -189,8 +183,8 @@
               </div>
             </ul>
           </li>
-          <li class="nav-item dropdown w-100">
-            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               تواصل
             </a>
             <ul class="dropdown-menu dropdown-menu-end border-0 rounded-3 shadow-lg pt-4">
@@ -211,18 +205,16 @@
         </ul>
       </div>
 
-      
-      <div class="d-flex justify-content-between align-items-center">
-        <div class="d-flex align-items-center">
-          <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-          <span class="fw-bold pe-auto">البحث</span>
+      <div class="d-flex gap-4 align-items-center">
+        <div class="d-flex align-items-center cursor-pointer">
+          <img src="assets/img/search.svg" class="ms-2 fw-bold" style="width: 15px; height: 15px;" />
+          <span>البحث</span>
         </div>
-        <div class="d-flex align-items-center me-4">
-          <i class="fa-solid fa-language"></i>
-          <span class="fw-bold me-1">English</span>
+        <div class="d-flex align-items-center cursor-pointer">
+          <img src="assets/img/direction.svg" class="ms-2 fw-bold" style="width: 15px; height: 15px;" />
+          <span>English</span>
         </div>
       </div>
-
     </div>
   </nav>
 </header>
@@ -232,46 +224,59 @@
 <section >
 
 <!-- Start Banner -->
-  <main class="  mt-3 wow animate__animated animate__fadeIn">
 
-<div class="swiper swiperBanner">
-  <div class="swiper-wrapper text-white">
-    <div class="swiper-slide" style="background-image: url(assets/img/banner1.png);">
-      <h2>تكرّم معالي رئيس الهيئة الملكية للجبيل وينبع</h2>
-      <p>كرّم معالي رئيس الهيئة الملكية للجبيل وينبع م. خالد السالم منسوبي التعليم العام بالهيئة الملكية<br> بينبع الذين ساهموا في حصول مدينة ينبع الصناعية على (جائزة اليونسكو لمدن التعلم 2024). </p>
-      <p><a href="#"><i class="fa-solid fa-arrow-left"></i> <span class="text-decoration-underline fw-500"> عرض التفاصيل</span></a></p>
+<main class=" wow animate__animated animate__fadeIn">
+
+<div class="bg-banner">
+  <div class="swiper swiperBanner position-relative">
+    <div class="swiper-wrapper text-white">
+      <div class="swiper-slide" style="background-image: url(assets/img/banner1.png);">
+        <h1 class="pb-2">تكرّم معالي رئيس الهيئة الملكية للجبيل وينبع</h1>
+        <div class="d-block w-75">
+          <p>كرّم معالي رئيس الهيئة الملكية للجبيل وينبع م. خالد السالم منسوبي التعليم العام بالهيئة الملكية بينبع الذين ساهموا في حصول مدينة ينبع الصناعية على (جائزة اليونسكو لمدن التعلم 2024). </p>
+        
+        </div>
+        <p><a href="#"><i class="fa-solid fa-arrow-left"></i> <span class="text-decoration-underline fw-500"> عرض التفاصيل</span></a></p>
+       </div>
+      <div class="swiper-slide" style="background-image: url(assets/img/banner2.png);">
+        <div class="d-block w-75">
+        <h1 class="pb-2">مشاركت الهيئة ضمن جناح منظومة الصناعة والثروة المعدنية، في ملتقى شباب الصناعة بالقصيم</h1>
+       </div>
+        <div class="d-block w-75">
+        <p>شاركت الهيئة الملكية للجبيل وينبع ضمن جناح منظومة الصناعة والثروة المعدنية، في ملتقى شباب الصناعة بالقصيم،  للتعريف بكلياتها الصناعية ومعاهدها التقنية، ودورها في دعم القطاع الصناعي عبر تأهيل الكوادر البشرية المؤهلة.</p>
+      </div>
+    </div>
+      <div class="swiper-slide" style="background-image: url(assets/img/banner3.png);">
+        <h1 class="pb-2">احتفلنا بتخريج طلبة كليات RCJY بحضور سمو أمير منطقة المدينة المنورة</h1>
+        <div class="d-block w-75">
+        <p>استمرارا لمسيرة تطور التعليم بمدن الهيئة الملكية التي أصبحت نموذجا عالميا لمدن التعلم الرائدة، وإيمانا منا بأن الشباب عماد مستقبلنا الذي ترسمه رؤية المملكة 2030، والطاقة التي تدفع نحو نهضة بلادنا</p>
      </div>
-    <div class="swiper-slide" style="background-image: url(assets/img/banner2.png);">
-      <h2>مشاركت الهيئة ضمن جناح منظومة الصناعة والثروة<br> المعدنية، في ملتقى شباب الصناعة بالقصيم</h2>
-      <p>شاركت الهيئة الملكية للجبيل وينبع ضمن جناح منظومة الصناعة والثروة المعدنية، في ملتقى شباب الصناعة<br> بالقصيم،  للتعريف بكلياتها الصناعية ومعاهدها التقنية، ودورها في دعم القطاع الصناعي عبر تأهيل الكوادر البشرية<br> المؤهلة.</p>
+      </div>
+      <div class="swiper-slide" style="background-image: url(assets/img/banner4.png);">
+       <img src="assets/img/banner4.png" style="width: 100%; height: 100%;"/>
+      </div>
     </div>
-    <div class="swiper-slide" style="background-image: url(assets/img/banner3.png);">
-      <h2>احتفلنا بتخريج طلبة كليات RCJY بحضور<br> سمو أمير منطقة المدينة المنورة</h2>
-      <p>استمرارا لمسيرة تطور التعليم بمدن الهيئة الملكية التي أصبحت نموذجا عالميا لمدن التعلم الرائدة،<br> وإيمانا منا بأن الشباب عماد مستقبلنا الذي ترسمه رؤية المملكة 2030، والطاقة التي تدفع نحو<br> نهضة بلادنا</p>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination  position-absolute"></div>
+      
+    <button class="btn position-fixed gap-1 calender bg-white d-flex justify-content-center   rounded-3" style="width: fit-content;">
+     
+      <span class="fw-bold fs-5">التقويم</span>
+      <img src="assets/img/calender.svg" class="ms-4" style="transform: rotate(90deg);"/>
+  
+    </button>
+  
+    <div class="social position-fixed gap-3 me-4">
+      <button class=" btn bg-white rounded-2 mb-3 p-2">
+        <img src="assets/img/Vector.svg" class=" "/>
+      </button>
+      <button class="btn bg-white rounded-2 position-fixed p-2">
+        <img src="assets/img/Frame.svg" class=" "/>
+      </button>
+  
     </div>
-    <div class="swiper-slide" style="background-image: url(assets/img/banner4.png);">
-     <img src="assets/img/banner4.png" style="width: 100%; height: 100%;"/>
-    </div>
-  </div>
-  <div class="calender bg-white d-flex justify-content-center  align-items-center p-2 pe-lg-4 ps-lg-4 rounded-3" style="width: fit-content;">
-   
-    <span class="fw-bold">التقويم</span>
-    <i class="fa-solid fa-calendar-minus p-2 fw-600"></i>
-
-  </div>
-
-  <div class="social">
-    <div class="bg-white rounded-2 mb-3">
-      <img src="assets/img/fluent_accessibility-32-regular.png" class=" p-1"/>
-    </div>
-    <div class="bg-white rounded-2">
-      <img src="assets/img/Frame.png" class=" p-1"/>
-    </div>
-
   </div>
 </div>
-
-
   </main>
 <!-- End Banner -->
 
@@ -610,68 +615,82 @@
     <div class="tab-pane fade show active" id="stats-home" role="tabpanel" aria-labelledby="stats-home-tab" tabindex="0">
      <div>
       <div class="container">
-        <div class="row flex-lg-nowrap justify-content-center">
-          <div class=" col-lg-2 col-md-3 col-sm-4 text-center align-items-center mb-2">
-            <div class="card align-items-center p-2 shadow-sm">
-              <div class="rounded-circle mb-2  w-50 h-50 d-flex align-items-center justify-content-center bg-body-secondary">
+        <div class="row flex-lg-nowrap justify-content-center align-items-stretch">
+          <div class="col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+            <div class="card align-items-center shadow-sm">
+              <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
                 <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
               </div>
-              <h3>1.5M</h3>
-              <p>شخص</p>
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h3>1.5M</h3>
+              <p>سنة بداية التعليم</p>
+              </div>
             </div>
           </div>
-          <div class=" col-lg-2 col-md-3 col-sm-4 text-center align-items-center mb-2">
-            <div class="card align-items-center p-2 shadow-sm">
-              <div class="rounded-circle mb-2   w-50 h-50 d-flex align-items-center justify-content-center bg-body-secondary">
+          <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+            <div class="card align-items-center shadow-sm">
+              <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
                 <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
               </div>
-              <h3>1.5M</h3>
-              <p>شخص</p>
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h3>1.5M</h3>
+              <p>سنة بداية التعليم</p>
+              </div>
             </div>
           </div>
-          <div class=" col-lg-2 col-md-3 col-sm-4 text-center align-items-center mb-2">
-            <div class="card align-items-center p-2 shadow-sm">
-              <div class="rounded-circle mb-2  w-50 h-50 d-flex align-items-center justify-content-center bg-body-secondary">
+          <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+            <div class="card align-items-center shadow-sm">
+              <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
                 <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
               </div>
-              <h3>1.5M</h3>
-              <p>شخص</p>
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h3>1.5M</h3>
+              <p>سنة بداية التعليم</p>
+              </div>
             </div>
           </div>
-          <div class=" col-lg-2 col-md-3 col-sm-4 text-center align-items-center mb-2">
-            <div class="card align-items-center p-2 shadow-sm">
-              <div class="rounded-circle mb-2   w-50 h-50 d-flex align-items-center justify-content-center bg-body-secondary">
+          <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+            <div class="card align-items-center shadow-sm">
+              <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
                 <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
               </div>
-              <h3>1.5M</h3>
-              <p>شخص</p>
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h3>1.5M</h3>
+              <p>سنة بداية التعليم</p>
+              </div>
             </div>
           </div>
-          <div class=" col-lg-2 col-md-3 col-sm-4 text-center align-items-center mb-2">
-            <div class="card align-items-center p-2 shadow-sm">
-              <div class="rounded-circle mb-2  w-50 h-50 d-flex align-items-center justify-content-center bg-body-secondary">
-                <i class="icon p-2 fa-solid fa-regular fa-star"></i>
+          <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+            <div class="card align-items-center shadow-sm">
+              <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
               </div>
-              <h3>1.5M</h3>
-              <p>شخص</p>
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h3>1.5M</h3>
+              <p>سنة بداية التعليم</p>
+              </div>
             </div>
           </div>
-          <div class=" col-lg-2 col-md-3 col-sm-4 text-center align-items-center mb-2">
-            <div class="card align-items-center p-2 shadow-sm">
-              <div class="rounded-circle mb-2  w-50 h-50 d-flex align-items-center justify-content-center bg-body-secondary">
-                <i class="icon p-2 fa-solid fa-plus"></i>
+          <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+            <div class="card align-items-center shadow-sm">
+              <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
               </div>
-              <h3>1.5M</h3>
-              <p>شخص</p>
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h3>1.5M</h3>
+              <p>سنة بداية التعليم</p>
+              </div>
             </div>
           </div>
-          <div class=" col-lg-2 col-md-3 col-sm-4 text-center align-items-center mb-2">
-            <div class="card align-items-center p-2 shadow-sm">
-              <div class="rounded-circle mb-2 w-50 h-50 d-flex align-items-center justify-content-center bg-body-secondary">
-                <i class="icon p-2 fa-solid fa-users"></i>
+          <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+            <div class="card align-items-center shadow-sm">
+              <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
               </div>
-              <h3>1.5M</h3>
-              <p>شخص</p>
+              <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h3>1.5M</h3>
+              <p>سنة بداية التعليم</p>
+              </div>
             </div>
           </div>
         </div>
@@ -682,54 +701,82 @@
     <div class="tab-pane fade" id="stats-profile" role="tabpanel" aria-labelledby="stats-profile-tab" tabindex="0">
       <div>
         <div class="container">
-          <div class="row flex-nowrap justify-content-center">
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon1.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+          <div class="row flex-lg-nowrap justify-content-center">
+            <div class="col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon2.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon3.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon4.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon5.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon6.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon7.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
           </div>
@@ -739,54 +786,82 @@
     <div class="tab-pane fade" id="stats-contact" role="tabpanel" aria-labelledby="stats-contact-tab" tabindex="0">
       <div>
         <div class="container">
-          <div class="row flex-nowrap justify-content-center">
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon1.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+          <div class="row flex-lg-nowrap justify-content-center">
+            <div class="col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon2.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon3.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon4.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon5.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon6.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
-            <div class="col-xxl-1 col-lg-2 col-md-3 col-sm-4 text-center">
-              <div class="card p-2 shadow-sm">
-                <img src="icon7.png" class="mx-auto" alt="Icon">
-                <h4>1.5M</h4>
-                <p>نص</p>
+            <div class=" col-12 col-md-4 col-lg-2  text-center align-items-center mb-2">
+              <div class="card align-items-center shadow-sm">
+                <div class="container-icon rounded-circle mb-2 d-flex align-items-center justify-content-center bg-body-secondary">
+                  <i class="icon p-2 fa-solid fa-hand-holding-droplet"></i>
+                </div>
+                <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                  <h3>1.5M</h3>
+                <p>شخص</p>
+                </div>
               </div>
             </div>
           </div>
@@ -820,7 +895,7 @@
                 <img class="w-100" src="assets/img/card5.png" alt="card1"/>
               </div>
               <div class="mt-3">
-                <p class="fw-bold ">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</p>
+                <h3 class="">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</h3>
                 <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرضلوريم ايبسوم هو نموذج افتراضي...</p>
               </div>
               <div class="d-flex justify-content-end">
@@ -834,7 +909,7 @@
                 <img class="w-100" src="assets/img/card5.png" alt="card1"/>
               </div>
               <div class="mt-3">
-                <p class="fw-bold ">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</p>
+                <h3 class=" ">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</h3>
                 <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرضلوريم ايبسوم هو نموذج افتراضي...</p>
               </div>
               <div class="d-flex justify-content-end">
@@ -848,7 +923,7 @@
                 <img class="w-100" src="assets/img/card5.png" alt="card1"/>
               </div>
               <div class="mt-3">
-                <p class="fw-bold ">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</p>
+                <h3 class="">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</h3>
                 <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرضلوريم ايبسوم هو نموذج افتراضي...</p>
               </div>
               <div class="d-flex justify-content-end">
@@ -862,7 +937,7 @@
                 <img class="w-100" src="assets/img/card5.png" alt="card1"/>
               </div>
               <div class="mt-3">
-                <p class="fw-bold ">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</p>
+                <h3 class=" ">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</h3>
                 <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرضلوريم ايبسوم هو نموذج افتراضي...</p>
               </div>
               <div class="d-flex justify-content-end">
@@ -876,7 +951,7 @@
                 <img class="w-100" src="assets/img/card5.png" alt="card1"/>
               </div>
               <div class="mt-3">
-                <p class="fw-bold ">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</p>
+                <h3 class="">لوريم ايبسوم دولار سيت أميت ,ككتيتور أدايبا يسكينج أليايت,سيت دومود تيمبور</h3>
                 <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرضلوريم ايبسوم هو نموذج افتراضي...</p>
               </div>
               <div class="d-flex justify-content-end">
@@ -903,8 +978,8 @@
 <!-- End News -->
 
 <!-- Start Review -->
-<main class="  mt-3 wow animate__animated animate__fadeIn">
-<div class="container-fluid p-4 bg-secondary" dir="rtl">
+<main class="   wow animate__animated animate__fadeIn">
+<div class="container-fluid p-5 " style="background-color: #F4F3F3;" dir="rtl">
 <div class="d-flex  align-items-center justify-content-center">
 <div class="d-flex align-items-center justify-content-center">
   <div>
@@ -934,7 +1009,7 @@
 
 <!-- ======= Start Footer Section ======= -->
 
-  <footer class="footer bg-success text-white py-4 mt-3 wow animate__animated animate__fadeIn" dir="rtl">
+  <footer class="footer  text-white py-4  wow animate__animated animate__fadeIn" dir="rtl">
     <div class="container">
       <div class="row">
   <div class="col-lg-2 col-md-4">
@@ -1037,7 +1112,7 @@
 <!-- ======= End Footer Section ======= -->
 
 
-  </section>
+ 
 
 
   <!--JS Files -->
@@ -1048,6 +1123,8 @@
   <script src="assets/js/all.min.js"></script>
   <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/aos.js"></script>
+  <!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <!-- jfontsize -->
   <script src="assets/js/main.js"></script>
 

@@ -1,11 +1,20 @@
 //footer
 
 
-.footer{
-    
-li{
-    a{
+.footer {
+  background: linear-gradient(360deg, #166A46 0%, #249360 100%);
+    li {
+      a {
         font-size: var(--bs-font-14);
+        font-weight: var(--fw-400) !important;
+        display: inline-block; 
+        transition: transform 0.3s ease-in-out; 
+  
+        &:hover {
+          text-decoration: underline;
+          transform: scale(1.1); 
+        }
+      }
     }
-}
-}
+  }
+  
