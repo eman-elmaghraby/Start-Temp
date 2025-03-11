@@ -1,5 +1,17 @@
 //home
 
+element.style {
+    transition-duration: 0ms;
+    transform: translate3d(236.5px, 0px, 0px);
+    transition-delay: 0ms;
+}
+.swiper-android .swiper-slide, .swiper-ios .swiper-slide, .swiper-wrapper {
+    transform: translate3d(0px, 0, 0);
+}
+.swiper-wrapper {
+    z-index: 0;
+}
+
 .eServices {
     cursor: pointer !important;
     overflow: hidden; // Prevents overflow when scaling
@@ -15,11 +27,13 @@
         transform: scale(1.04) !important;
     }
    }
+   
 }
 
 
 // Start Banner
 .bg-banner{
+   
     background-color: var(--bs-primary);
     width: 100%;
 }
@@ -101,8 +115,10 @@
         transform: rotate(270deg);
         color: var(--bs-primary);
         font-size: var(--bs-font-16);
+        z-index: 9999;
     }
 .social{
+    z-index: 9999;
    transform: translate(0,-50%);
     z-index: 999;
     top: 50%;
@@ -153,7 +169,8 @@ button{
 
 .swiper-pagination {
    top:104%;
-
+   right: 0;
+   top: 91%;
     .swiper-pagination-bullet {
         background-color: var(--bs-light-400);
         opacity: 1;
@@ -170,6 +187,7 @@ button{
     display: none !important; 
 }
 .swiper-btn{
+    top:95%;
     background-color: white;
     color: var(--bs-primary);
     border: 1px solid var(--bs-primary);

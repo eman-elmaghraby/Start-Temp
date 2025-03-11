@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     on: {
       slideChangeTransitionStart: function () {
-        console.log("Slide is changing..."); // ✅ Debugging log
         gsap.fromTo(
           ".swiperBanner .swiper-slide-active",
           { rotationY: -110, opacity: 0 },
@@ -70,6 +69,47 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
   });
+  
+
+
+// Swiper News
+document.addEventListener("DOMContentLoaded", function () {
+  var swiper = new Swiper(".swiperNews", {
+    loop: true, 
+    slidesPerView: 4, 
+    spaceBetween: 35, 
+    autoplay: {
+      delay: 3000, 
+      disableOnInteraction: false, 
+    },
+    breakpoints: {
+      1920: {
+          slidesPerView: 4,
+          spaceBetween: 10
+      },
+      1028: {
+          slidesPerView: 4,
+          spaceBetween: 10
+      },
+      480: {
+          slidesPerView: 1,
+          spaceBetween: 10
+      },
+      320: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      993: { slidesPerView: 3 }
+  },
+    pagination: {
+      el: ".swiper-pagination2",
+      clickable: true, 
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+});
+
 
   new WOW().init();
 
